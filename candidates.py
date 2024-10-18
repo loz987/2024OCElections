@@ -600,31 +600,31 @@ def candidatetable():
 
     # Candidate photos
     images = {
-        "Adam Schiff": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/adam.png",
-        "Steve Garvey": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/steve.png",
-        "Dave Min": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/dave.png",
-        "Scott Baugh": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/scott.png",
-        "Josh Newman": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/josh.png",
-        "Steven 'Steve' Choi": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/steven.png",
-        "Cottie Petrie-Norris": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/cottie.png",
-        "Scotty Peotter": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/scotty.png",
-        "Amy Peters": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/amy.png",
-        "Chris Kretzu": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/chris.png",
-        "Krita Weigand": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/krita.png",
-        "James Peters": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/james.png",
-        "John Stephens": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/john.png",
-        "Jeffrey Harlan": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/jeffH.png",
-        "Jeff Pettis": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/jeffP.png",
-        "Pano Frousakis": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/pano.png",
-        "Karl W. Seckel": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/karl.png",
-        "Bob Ooten": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/bob.png",
-        "Erik Weigand": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/erik.png"
+        "Adam Schiff": "CandidatePics/adam.png",
+        "Steve Garvey": "CandidatePics/steve.png",
+        "Dave Min": "CandidatePics/dave.png",
+        "Scott Baugh": "CandidatePics/scott.png",
+        "Josh Newman": "CandidatePics/josh.png",
+        "Steven 'Steve' Choi": "CandidatePics/steven.png",
+        "Cottie Petrie-Norris": "CandidatePics/cottie.png",
+        "Scotty Peotter": "CandidatePics/scotty.png",
+        "Amy Peters": "CandidatePics/amy.png",
+        "Chris Kretzu": "CandidatePics/chris.png",
+        "Krita Weigand": "CandidatePics/krita.png",
+        "James Peters": "CandidatePics/james.png",
+        "John Stephens": "CandidatePics/john.png",
+        "Jeffrey Harlan": "CandidatePics/jeffH.png",
+        "Jeff Pettis": "CandidatePics/jeffP.png",
+        "Pano Frousakis": "CandidatePics/pano.png",
+        "Karl W. Seckel": "CandidatePics/karl.png",
+        "Bob Ooten": "CandidatePics/bob.png",
+        "Erik Weigand": "CandidatePics/erik.png"
     }
 
     # Candidate dog photos
     dog= {
-        "Jeffrey Harlan": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/jeffHdog.png",
-        "Jeff Pettis": "/Users/lauramckeown/Documents/Projects/OC Elections/CandidatePics/jeffPdog.png"
+        "Jeffrey Harlan": "CandidatePics/jeffHdog.png",
+        "Jeff Pettis": "CandidatePics/jeffPdog.png"
     }
 
     # Create a DataFrame from each dictionary
