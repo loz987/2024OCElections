@@ -1698,6 +1698,11 @@ def results(candidateA, candidateB, A_agree, B_agree, names, party):
 
     # Create the bar chart
     fig, ax = plt.subplots(figsize=(10, 2))
+
+    # Set the figure and axes face color to be transparent or match the background
+    fig.patch.set_facecolor('none')  # Makes the figure background transparent
+    ax.set_facecolor('none')  # Makes the axes background transparent
+
     df_pct.plot(kind='barh', stacked=True, ax=ax, color=colours, legend=False)
 
     # Hide axes and chart outline
