@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 from electionsurveys import USSenator, USRep, StateSenator, StateAssembly, SchoolDistrict, Mayor, CityCouncil, MunicipalWater, OCWater, results, results3
 

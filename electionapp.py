@@ -1,7 +1,4 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-from pathlib import Path
 
 from electionpages import HomePage, USSenatorPage, USRepPage, StateSenatorPage, StateAssemblyPage, SchoolDistrictPage, MayorPage, CityCouncilPage, MunicipalWaterPage, OCWaterPage
 
