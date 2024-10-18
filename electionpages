@@ -1,0 +1,15 @@
+import streamlit as st
+
+from candidates import OCWater, OCWater_results
+
+# Function to handle the OC Water District Election page
+def OCWaterPage():
+    st.header("Orange County Water District Director, Division 7, Short Term")
+    # Call the OCWater survey function and display results
+    bob, erik, bob_agree, erik_agree = OCWater()
+    OCWater_results(bob, erik, bob_agree, erik_agree)
+
+# Function to handle the second page (another election or content)
+def page2():
+    st.header("Another Election Page")
+    st.write("Content for another election page here.")
